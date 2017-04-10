@@ -36,7 +36,8 @@ gulp.task('server', function() {
         baseDir: "./"
     },
     port: 3000,
-    notify: false
+    notify: false,
+    browser: "google chrome"
   });
 
   gulp.watch(paths.html).on('change', reload);
